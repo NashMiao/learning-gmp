@@ -1,6 +1,6 @@
 {
     "code-runner.executorMap": {
-        "cpp": "cd $dir && g++ $fileName -lgmpxx -lgmp -Wall -g -O0 -std=c++11 -o $workspaceRoot/bin/$fileNameWithoutExt && $workspaceRoot/bin/$fileNameWithoutExt && rm $workspaceRoot/bin/$fileNameWithoutExt"
+        "cpp": "cd $dir && g++ $fileName -lgmpxx -lgmp -lboost_random -Wall -g -O0 -std=c++11 -o $workspaceRoot/bin/$fileNameWithoutExt && $workspaceRoot/bin/$fileNameWithoutExt && rm $workspaceRoot/bin/$fileNameWithoutExt"
     },
     "files.associations": {
         "cstdlib": "cpp"
